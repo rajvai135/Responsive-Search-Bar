@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Search ber using js</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <form>
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input
+          type="text"
+          placeholder="Search Here....."
+          id="search-input"
+          onkeyup="search()"
+        />
+      </form>
+      <div class="product-list" id="product-list">
+        <div class="product">
+          <img src="f1.jpg" alt="" />
+          <div class="p-details">
+            <h2>Styles T-shirt</h2>
+            <h3>tk. 590</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="n6.jpg" alt="" />
+          <div class="p-details">
+            <h2>Cotton Pant</h2>
+            <h3>tk. 990</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="mouse.jpg" alt="" />
+          <div class="p-details">
+            <h2>RGBA Mouse</h2>
+            <h3>tk. 1500</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="f5.jpg" alt="" />
+          <div class="p-details">
+            <h2>Styles T-shirt 2</h2>
+            <h3>tk. 690</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="keybord.jpg" alt="" />
+          <div class="p-details">
+            <h2>RGBA Keyboard</h2>
+            <h3>tk. 1250</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="monitor.jpg" alt="" />
+          <div class="p-details">
+            <h2>LED Monitor</h2>
+            <h3>tk. 1950</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="n1.jpg" alt="" />
+          <div class="p-details">
+            <h2>Styles T-shirt 3</h2>
+            <h3>tk. 585</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="laptop.jpg" alt="" />
+          <div class="p-details">
+            <h2>New Laptop</h2>
+            <h3>tk. 55000</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="f6.jpg" alt="" />
+          <div class="p-details">
+            <h2>Styles T-shirt 4</h2>
+            <h3>tk. 450</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="desk.jpg" alt="" />
+          <div class="p-details">
+            <h2>Lidhting Desk</h2>
+            <h3>tk. 4500</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="n8.jpg" alt="" />
+          <div class="p-details">
+            <h2>Magi Shart</h2>
+            <h3>tk. 650</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="chair.jpg" alt="" />
+          <div class="p-details">
+            <h2>Freelancing Chair</h2>
+            <h3>tk. 3590</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="f7.jpg" alt="" />
+          <div class="p-details">
+            <h2>Female Plaju</h2>
+            <h3>tk. 390</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="gaming head phone.jpg" alt="" />
+          <div class="p-details">
+            <h2>Gaming Head Phonet</h2>
+            <h3>tk. 790</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="n3.jpg" alt="" />
+          <div class="p-details">
+            <h2>Styles Cotton T-shirt</h2>
+            <h3>tk. 1290</h3>
+          </div>
+        </div>
+        <div class="product">
+          <img src="Gaming_store.jpg" alt="" />
+          <div class="p-details">
+            <h2>PC Box</h2>
+            <h3>tk. 2590</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
